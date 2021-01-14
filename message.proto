@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Result {
+    string label = 1;
+    float score = 2;
+}
+
+message Results {
+    repeated Result results = 1;
+}
+
+message Texts {
+    repeated string texts = 1;
+}
